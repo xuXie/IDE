@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+	background-image: url('../images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 1024px 768px
+}
+#page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url('../images/chart2.png');
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#design-pop-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url('../images/design.png');
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#design-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#design-pop-up >.close-button.pressed {
+	opacity: 1
+}
+
+#navigation-bar{ width:100%; height:42px; background:url(../images/issi_bar2.png) no-repeat; position:relative; left:0; top:64px; overflow:hidden;}
+#ssi-wrapper{position:absolute;width:885px;height:475px;left:98px;top:180px;overflow:hidden}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body {
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: 1024px 768px
+}
+#page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	/*background-image: url('../images/chart.png');*/
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#navigation-bar {
+	position: absolute;
+	left: 0;
+	top: 64px;
+	width: 1024px;
+	height: 42px;
+	background-image: url('../images/navigation-bar.png');
+	background-repeat: no-repeat
+}
+#design-pop-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url(../images/design.png);
+	background-size: 1024px 768px;
+	background-repeat: no-repeat;
+	z-index:5;
+	
+}
+#design-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#design-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#reference-pop-up {
+	background-image: url(../images/bg.png);
+	background-size: 1024px 768px
+}
+#reference-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#reference-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#design-wrapper{position:absolute;width:885px;height:436px;left:98px;top:217px;overflow:hidden}
+.yjsj_btn { width:111px; height:25px; background:url(../images/yjsj.png) no-repeat; position:absolute; bottom:64px; right:30px; cursor:pointer; z-index:3;}
+.text1 { position:absolute; left:170px; top:205px;}
+.text2 { position:absolute; left:170px; top:270px;}
+.text3 { position:absolute; left:170px; top:330px;}
+.text4 { position:absolute; left:170px; top:390px;}
+.text5 { position:absolute; left:170px; top:450px;}
+.text6 { position:absolute; left:170px; top:510px;}
+.icon1 { position:absolute; left:210px; bottom:46px;}
+.icon2 { position:absolute; left:330px; bottom:46px;}
+.icon3 { position:absolute; left:454px; bottom:46px;}
+.icon4 { position:absolute; left:564px; bottom:46px;}
+.icon5 { position:absolute; left:685px; bottom:46px;}
+
+.text,.icon { opacity:0;}

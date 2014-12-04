@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+	background-image: url('../images/index_bg.png');
+	background-repeat: no-repeat;
+	background-size: 1024px 768px
+}
+#page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	/*background-image: url('../images/chart.png');*/
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#design-pop-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url('../images/design.png');
+	background-size: 1024px 768px;
+	background-repeat: no-repeat;
+	z-index:5;
+}
+<!--弹弹弹弹弹弹弹弹弹弹弹弹弹弹-->
+div#design-pop-up > .design-content {
+	position: absolute;
+	width: 865px;
+	height: 433px;
+	top: 227px;
+	left: 95px;
+	overflow: hidden
+}
+#design-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#design-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#design-wrapper{position:absolute;width:885px;height:436px;left:98px;top:217px;overflow:hidden}
+
+#navigation-bar{ width:100%; height:42px; background:url(../images/navigation-bar%E2%80%94_bg.png) no-repeat; position:relative; left:0; top:64px; overflow:hidden;}
+.status2_b,.status3_b,.status4_b{ position:absolute; top:138px; left:60px;}
+.return_btn{ position:absolute; bottom:92px; right:34px; cursor:pointer;}
+
+.options_ka{ width:870px; height:100%; position:absolute; top:230px; left:80px; overflow:hidden;}
+.xx_k1,.xx_k2,.xx_k3{ position:relative; width:100%; height:37px; overflow:hidden; z-index:3;}
+.up_btn{ position:absolute; bottom:0px; right:38px; cursor:pointer;}
+.status4_page1{ width:870px; height:79px; overflow:hidden;}
+.status4_page2{ width:870px; height:175px;overflow:hidden; display:none;}
+.status4_page3{ width:870px; height:1112px;overflow:hidden; display:none;}
+.status4_research{ position:absolute; bottom:67px; right:34px; cursor:pointer;}
+.status4_tan{ width:983px; height:628px;}
+.esearch_zi{ width:142px; margin:0 auto;}
+.design_tu{ width:858px; height:419px; overflow-y:scroll;}
+

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: 1024px 768px
+}
+#page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url('../images/chart.png');
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#navigation-bar {
+	position: absolute;
+	left: 0;
+	top: 64px;
+	width: 1024px;
+	height: 42px;
+	background-image: url('../images/navigation-bar.png');
+	background-repeat: no-repeat
+}
+#reference-pop-up {
+	background-image: url(../images/bg.png);
+	background-size: 1024px 768px
+}
+#reference-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#reference-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#book1 { width:184px; height:248px; position:absolute; left:119px; top:285px; cursor:pointer;}
+#book2 { width:184px; height:248px; position:absolute; left:314px; top:285px; cursor:pointer;}
+#book3 { width:184px; height:248px; position:absolute; left:506px; top:285px; cursor:pointer;}
+#book4 { width:184px; height:248px; position:absolute; left:698px; top:285px; cursor:pointer;}
+.big1 { position:absolute; left:75px; bottom:150px; z-index:4;}
+.big2 { position:absolute; left:248px; bottom:110px; z-index:5;}
+.big3 { position:absolute; left:284px; bottom:122px; z-index:4;}
+.big4 { position:absolute; left:128px; bottom:100px; z-index:5;}
+.big5 { position:absolute; left:459px; bottom:122px; z-index:4;}
+.big6 { position:absolute; left:248px; bottom:100px; z-index:5;}
+.big7 { position:absolute; left:583px; bottom:122px; z-index:4;}
+.big8 { position:absolute; left:248px; bottom:100px; z-index:5;}

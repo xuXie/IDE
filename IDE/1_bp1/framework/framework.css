@@ -1,0 +1,138 @@
+@charset "UTF-8";
+* {
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+html, body {
+	width: 1024px;
+	height: 768px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative
+}
+#previous-page, #page, #next-page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-size: 1024px 768px;
+	background-repeat: no-repeat;
+	visibility: hidden
+}
+#page {
+	visibility: visible
+}
+div#header {
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 63px;
+	position: absolute;
+	background-size: 1024px 63px;
+	background-repeat: no-repeat
+}
+div.pop-up {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1024px;
+	height: 768px;
+	margin: 0;
+	padding: 0;
+	background-position: left top;
+	background-repeat: no-repeat;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transform: scale(1)
+}
+div#background-pop-up {
+	-webkit-transform: none;
+	background-color: black
+}
+div#logo {
+	position: absolute;
+	left: 821px;
+	top: 113px;
+	width: 163px;
+	height: 77px;
+	background-image: url(../images/logo.png);
+	background-size: 163px 77px;
+	background-repeat: no-repeat
+}
+div#menu-bar {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 1024px;
+	height: 45px;
+	background-size: 1024px 45px;
+	background-repeat: no-repeat
+}
+div#menu-bar > div#menu-button-1 {
+	position: absolute;
+	left: 59px;
+	top: 0;
+	width: 150px;
+	height: 46px
+}
+div#menu-bar > div#menu-button-2 {
+	position: absolute;
+	left: 209px;
+	top: 0;
+	width: 157px;
+	height: 46px
+}
+div#menu-bar > div#menu-button-3 {
+	position: absolute;
+	left: 366px;
+	top: 0;
+	width: 316px;
+	height: 46px
+}
+div#menu-bar > div#menu-button-4 {
+	position: absolute;
+	left: 682px;
+	top: 0;
+	width: 309px;
+	height: 46px
+}
+div#navigation-bar >.navigation-button {
+	float: left;
+	width: 138px;
+	height: 42px
+}
+div#navigation-bar >.navigation-button:nth-child(1) {
+	margin-left: 138px
+}
+div#reference-pop-up {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	/*background-image: url(../images/popup-reference.png);*/
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+div#reference-pop-up > .reference-content {
+	position: absolute;
+	width: 865px;
+	height: 433px;
+	top: 227px;
+	left: 95px;
+	overflow: hidden
+}
+div#reference-pop-up >.close-button {
+	position: absolute;
+	left: 970px;
+	top: 106px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+div#reference-pop-up >.close-button.pressed {
+	opacity: 1
+}

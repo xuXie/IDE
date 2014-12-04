@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: 1024px 768px
+}
+#page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url('../images/chart.png');
+	background-size: 1024px 768px;
+	background-repeat: no-repeat
+}
+#navigation-bar {
+	position: absolute;
+	left: 0;
+	top: 64px;
+	width: 1024px;
+	height: 42px;
+	background-image: url('../images/navigation-bar.png');
+	background-repeat: no-repeat
+}
+#design-pop-up {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+	background-image: url(../images/design.png);
+	background-size: 1024px 768px;
+	background-repeat: no-repeat;
+	z-index:5;
+	
+}
+#design-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#design-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#reference-pop-up {
+	background-image: url(../images/bg.png);
+	background-size: 1024px 768px
+}
+#reference-pop-up >.close-button {
+	position: absolute;
+	right: 10px;
+	top: 105px;
+	width: 42px;
+	height: 42px;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.3s;
+	opacity: 0
+}
+#reference-pop-up >.close-button.pressed {
+	opacity: 1
+}
+#yjsj_btn { width:111px; height:25px; background:url(../images/yjsj.png) no-repeat; position:absolute; bottom:64px; right:30px; cursor:pointer; z-index:3;}
+.con1 { position:absolute; left:229px; bottom:191px; background:url(../images/con1.png) no-repeat center bottom; width:87px; height:216px; height:0;}
+.con2 { position:absolute; left:468px; bottom:191px;  background:url(../images/con2.png) no-repeat center bottom; width:87px; height:233px;height:0;}
+.con3 { position:absolute; left:693px; bottom:191px;  background:url(../images/con3.png) no-repeat center bottom; width:88px; height:308px;height:0;}
+#btn { width:121px; height:55px; background:url(../images/check.png) no-repeat; position:absolute; left:868px; bottom:140px; z-index:3; cursor:pointer;}
+#btn.re {  background:url(../images/refesh.png) no-repeat; }
+
+.btn { width: 100px; height:60px; cursor:pointer; position:absolute; top:582px;}
+.btn1 { left:219px;}
+.btn2 { left:401px; width:200px;}
+.btn3{ left:682px;
